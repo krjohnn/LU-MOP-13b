@@ -4,6 +4,7 @@ Majasdarba MD1 autors   :   Krisjanis Sulcs
 Programma sadalita 3 funkcijas
     - apro
     - progress
+    - err
     - result
 
 apro tiek izsaukta no md1_main.c ar padoto parametru (n).
