@@ -1,0 +1,14 @@
+Majasdarba MD1 autors   :   Krisjanis Sulcs
+                                    ks10163
+
+Programma sadalita 3 funkcijas
+    - apro
+    - progress
+    - result
+
+apro tiek izsaukta no md1_main.c ar padoto parametru (n).
+progress funkcija tiek cikla atkartota n reizes lidz padotais paramters ir vienads ar 0.
+Ciklu laika iegutas vertibas tiek summetas.
+result atgriez vienkarsaka gadijuma aritmetiskas progresijas summu.
+
+

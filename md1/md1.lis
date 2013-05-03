@@ -1,0 +1,27 @@
+ARM GAS  md1.s 			page 1
+
+
+   1              		.text
+   2              		.align	2
+   3              		.global	apro
+   4              		.type	apro, %function
+   5              	apro:
+   6 0000 0010A0E3 	    mov r1, #0
+   7 0004 FFFFFFDA 	    ble progress
+   8              	
+   9              	progress:
+  10 0008 001091E0 	    adds r1, r0
+  11 000c 0300006A 	    bvs bad
+  12 0010 010040E2 	    sub r0, #1
+  13 0014 000050E3 	    cmp r0, #0
+  14 0018 0200000A 	    beq result
+  15 001c F9FFFFAA 	    bge progress
+  16              	
+  17              	bad:
+  18 0020 0000E0E3 	    mov r0, #-1
+  19 0024 1EFF2FE1 	    bx lr
+  20              	
+  21              	result:
+  22 0028 0100A0E1 	    mov r0, r1
+  23 002c 1EFF2FE1 	    bx lr
+  24              	    .size   apro, .-apro
