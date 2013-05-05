@@ -1,8 +1,8 @@
 	.text
 	.align	2
-	.global	apro
-	.type	apro, %function
-apro:
+	.global	asum
+	.type	asum, %function
+asum:
     mov r1, #0
     b progress
 
@@ -21,4 +21,4 @@ err:
 result:
     mov r0, r1
     bx lr
-    .size   apro, .-apro
+    .size   asum, .-asum

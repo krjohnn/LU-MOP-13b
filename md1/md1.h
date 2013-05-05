@@ -1,1 +1,1 @@
-int apro(int a);
+int asum(int a);

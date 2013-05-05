@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
         return -1;
     }else{
         int a = atoi(argv[1]);
-        printf("%d\n", apro(a));
+        printf("%d\n", asum(a));
         return 0;
     }
 }
