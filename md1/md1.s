@@ -4,7 +4,7 @@
 	.type	apro, %function
 apro:
     mov r1, #0
-    ble progress
+    b progress
 
 progress:
     adds r1, r0

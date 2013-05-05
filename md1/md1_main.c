@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int apro(int a);
+#include "md1.h"
 
 int main(int argc, char *argv[])
 {
